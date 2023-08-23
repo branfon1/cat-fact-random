@@ -1,6 +1,6 @@
 <div style="display: flex;">
-  <img src="/src/assets/Home.png" alt="Home" style="width:300px;">
-  <img src="/src/assets/loading.png" alt="Home" style="width:300px;">
+  <img src="/src/assets/Home.png" alt="Home" style="width:500px;">
+  <img src="/src/assets/loading.png" alt="Home" style="width:500px;">
 </div>
 
 
@@ -12,12 +12,19 @@
 pnpm create create vite
 ```
 
-[![Open in GitHub VSCode](https://github.com/codespaces/badge.svg)](https://vscode.dev/github/branfon1/cat-fact)
+[![Open in GitHub VSCode](https://github.com/codespaces/badge.svg)](https://vscode.dev/github/branfon1/cat-fact-random)
 
 ## ⚙️ Stack
 
 ➡️ [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 ➡️ [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+# API
+
+✅ [Cataas](https://cataas.com/) 
+✅ [Random Cat](https://catfact.ninja/fact) 
+✅ [Get image by Fact](https://cataas.com/cat/says/dev?size=50&color=red&json=true) 
+
 
 ## 🚀 Getting Started
 
