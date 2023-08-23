@@ -1,0 +1,40 @@
+.fact-section {
+  padding: 1rem;
+  border: 1px solid hsla(0, 0%, 100%, 0.3);
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-width: 40rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(14px);
+  position: relative;
+  box-shadow: .5px 2px 4.5px 1px hsla(0, 0%, 100%, 0.1);
+}
+
+.fact-section--title {
+  position: absolute;
+  top: -50px;
+  left: 30px;
+  background-color: #575579;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.fact-section--title h1{
+  margin: 0;
+  font-size: 2rem;
+}
+
+.fact-section--img {
+  width:220px;
+  height: 220px;
+  position: absolute;
+  right: 0;
+  
+}
+
+.fact-section--text {
+  width: 45ch;
+  color: #eee;
+}
