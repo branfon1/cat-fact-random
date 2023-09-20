@@ -9,7 +9,7 @@ export function useCatImage ({ fact }) {
     useEffect(() => {
       if (!fact) return
       
-      setImageUrl('/src/assets/loading.gif')
+      setImageUrl('/loading.gif')
       const threeFirstWords = fact.split(' ', 3).join(' ')
       const apiCat = CAT_ENDPOINT_IMG_URL.replace('$threeFirstWords#', threeFirstWords)
       fetch(apiCat)
