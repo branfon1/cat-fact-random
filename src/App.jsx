@@ -16,6 +16,9 @@ function App () {
 
   return (
     <main className='cat-main--content'>
+
+      <div className='bg-inset'></div>
+
       {fact && <Fact text={fact} />}
       <button className='cat-main--button' onClick={handleNewFact}>
         <span>
