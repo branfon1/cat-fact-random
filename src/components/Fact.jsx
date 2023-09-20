@@ -6,7 +6,7 @@ function Fact ({ text }) {
         <h1>What is cutie?</h1>
       </div>
       <p className='fact-section--text'>{text}</p>
-      <img className='fact-section--img' src='../assets/cat-removebg-preview.png' alt='Cat orange presentation' />
+      <img className='fact-section--img' src='/cat-removebg-preview.png' alt='Cat orange presentation' />
     </article>
   )
 }
