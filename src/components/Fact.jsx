@@ -1,4 +1,4 @@
-import './Fact.css'
+import '@/components/Fact.css'
 function Fact ({ text }) {
   return (
     <article className='fact-section'>

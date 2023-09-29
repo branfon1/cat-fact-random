@@ -1,4 +1,4 @@
-import { CAT_ENDPOINT_RANDOM_FACT } from '../environment/environment'
+import { CAT_ENDPOINT_RANDOM_FACT } from '@/environment/environment'
 
 export const getRandomFact = async ()  => {
     const res = await fetch(CAT_ENDPOINT_RANDOM_FACT)

@@ -28,7 +28,7 @@ function App () {
       </button>
       {imageUrl &&
         <picture className='img-random'>
-          <img src={`${imageUrl}`} alt={`Image extract using the first three words for ${fact}`} />
+          <img id='imgFact' src={`${imageUrl}`} alt={`Image extract using the first three words for`} />
         </picture>}
     </main>
   )
