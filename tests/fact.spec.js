@@ -1,4 +1,3 @@
-// @ts-check
 import { test, expect } from '@playwright/test';
 
 const CAT_PREFIX_IMAGE_URL = 'https://cataas.com'
@@ -21,10 +20,9 @@ test('app show random fact and image', async ({ page }) => {
 test('app new random fact ', async ({ page }) => {
   await page.goto(LOCALHOST_URL);
 
-
   const textOld = await page.getByRole('paragraph').textContent()
 
-  const button = await page.getByRole('button', { name: 'Get new fact' }).click()
+  await page.getByRole('button', { name: 'Get new fact' }).click()
 
   const textNew = await page.getByRole('paragraph').textContent()
   
