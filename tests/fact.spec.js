@@ -16,3 +16,17 @@ test('app show random fact and image', async ({ page }) => {
   await expect(textContent?.length).toBeGreaterThan(0)
   await expect((imgSrc?.startsWith(CAT_PREFIX_IMAGE_URL) || imgSrc?.startsWith('/loading.gif'))).toBeTruthy()
 });
+
+
+test('app new random fact ', async ({ page }) => {
+  await page.goto(LOCALHOST_URL);
+
+
+  const textOld = await page.getByRole('paragraph').textContent()
+
+  const button = await page.getByRole('button', { name: 'Get new fact' }).click()
+
+  const textNew = await page.getByRole('paragraph').textContent()
+  
+  await expect(textOld).not.toBe(textNew)
+});
